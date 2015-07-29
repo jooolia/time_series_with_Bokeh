@@ -3,7 +3,7 @@
 
 # Getting started:
 
-## Python libraries
+## Installing Python packages
 
 We will use Pandas to get our data into a dataframe and then Bokeh for some basic exploratory visualization.
 
@@ -13,7 +13,7 @@ We will use Pandas to get our data into a dataframe and then Bokeh for some basi
 pip install bokeh
 ```
 
-* Or if you use Ananconda to manage your libraries you can run:
+* Or if you use Anaconda to manage your libraries you can run:
 
 ```
 conda install bokeh
@@ -31,7 +31,7 @@ pip install pandas
 
 On linux I had a problem the first time I went to run Bokeh..
 
-Got error `Exception Value: cannot import name TimeoutStateError` and then updated the request library
+Got error `Exception Value: cannot import name TimeoutStateError` and then updated the request package
 
 Ran :
 
@@ -44,9 +44,9 @@ pip install requests --upgrade
 # Quick examples
 
 We'll use ipython notebook to run out Bokeh plots, so from this directory start up Ipython Notebook (or Jupiter) by typing:
+
 ```
 ipython notebook
 ```
 
 Navigate to the web browser that opened up and we'll work from there.
-
